@@ -10,7 +10,8 @@ public class ArrayRataNilai14 {
         double rata2Lulus, rata2TdkLulus;
         System.out.print("Masukkan jumlah mahasiswa : ");
         int jmlMhs = sc.nextInt();
-        for (int i = 0; i < jmlMhs; i++) {
+        int[] w = new int[jmlMhs];
+        for (int i = 0; i < w.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-"+(i+1)+" : ");
             nilaiMhs = sc.nextInt();
             if (nilaiMhs < 70) {
